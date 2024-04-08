@@ -1,0 +1,76 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.banner {
+background-image: url("https://source.unsplash.com/random/1000x500");
+background-size: cover;
+padding: 120px o 50px 0;
+text-align: center;
+}
+
+.container {
+  color: rgb(255, 255, 255);
+  margin: 25px auto;
+  display: inline-block;
+  text-align:left;
+  padding: 120px 0;
+}
+
+.main_body {
+  color: #3C3633;
+  padding: 0px 100px;
+}
+
+.content_section {
+  padding: 20px;
+  background-color: #E0CCBE;
+  margin: 20px;
+  border-radius: 25px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+a {
+  text-decoration: none;
+  color: #643843;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #747264;
+}
+
+a:active {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+ @media (max-width: 2000px) {
+   .body {
+     width: 900px;
+   }
+ }
+
+ @media (max-width: 960px) {
+   .body {
+     width: 700px;
+   }
+ }
+
+ @media (max-width: 720px) {
+   .body {
+     width: 500px;
+   }
+ }
+
+ @media (max-width: 540px) {
+   .body {
+     width: 300px;
+   }
+ }
